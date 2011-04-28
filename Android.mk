@@ -4,6 +4,8 @@ LIBRTMP_TOP := $(LOCAL_PATH)
 
 include $(CLEAR_VARS)
 
+LOCAL_MODULE_TAGS:=eng debug
+
 LOCAL_SRC_FILES:= \
 	rtmpdump.c
 
